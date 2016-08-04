@@ -17,8 +17,9 @@ cabal-version:       >=1.10
 
 executable persist
   main-is:             Main.hs
-  other-modules:       ConnectionString      
-  -- other-extensions:    
+  other-modules:       ConnectionString
+                       , BlogTables
+  -- other-extensions:
   build-depends:       base
                        , persistent
                        , persistent-postgresql
